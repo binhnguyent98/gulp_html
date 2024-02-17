@@ -1,0 +1,4 @@
+{
+  "**/*.(html|css|js)": ["prettier --write", "eslint --fix ."],
+  "**/*.+(css|scss|sass)": "stylelint --fix **/*.{css,scss,sass} --ignore-path .gitignore --ignore-path .stylelintignore --config-basedir ./src/assets/styles/"
+}
