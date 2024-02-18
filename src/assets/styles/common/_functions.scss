@@ -1,0 +1,17 @@
+@function to-rem($value) {
+  @if $value == 0 {
+    @return 0;
+  }
+
+  @return ($value / 16) + rem;
+}
+
+@function calc-rem($values...) {
+  $result: ();
+
+  @each $number in $values {
+    $result: append($result, to-rem($number));
+  }
+
+  @return $result;
+}

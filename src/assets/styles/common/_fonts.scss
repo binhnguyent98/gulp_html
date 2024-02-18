@@ -1,0 +1,21 @@
+@import 'variable';
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('#{$path-font}/roboto/Roboto-Black.ttf') format('truetype');
+  src: url('#{$path-font}/roboto/Roboto-BlackItalic.ttf') format('truetype');
+  src: url('#{$path-font}/roboto/Roboto-Bold.ttf') format('truetype');
+  src: url('#{$path-font}/roboto/Roboto-BoldItalic.ttf') format('truetype');
+  src: url('#{$path-font}/roboto/Roboto-Light.ttf') format('truetype');
+  src: url('#{$path-font}/roboto/Roboto-LightItalic.ttf') format('truetype');
+  src: url('#{$path-font}/roboto/Roboto-Medium.ttf') format('truetype');
+  src: url('#{$path-font}/roboto/Roboto-MediumItalic.ttf') format('truetype');
+  src: url('#{$path-font}/roboto/Roboto-Regular.ttf') format('truetype');
+  src: url('#{$path-font}/roboto/Roboto-Thin.ttf') format('truetype');
+  src: url('#{$path-font}/roboto/Roboto-ThinItalic.ttf') format('truetype');
+}
+
+.font-roboto {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+}

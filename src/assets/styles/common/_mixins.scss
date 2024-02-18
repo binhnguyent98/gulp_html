@@ -1,0 +1,31 @@
+@mixin breakpoint($point) {
+  @if $point == 'xl' {
+    @media only screen and (max-width: map-get($breakpoint-screen, xl)) {
+      @content;
+    }
+  }
+
+  @if $point == 'lg' {
+    @media only screen and (max-width: map-get($breakpoint-screen, lg)) {
+      @content;
+    }
+  }
+
+  @if $point == 'md' {
+    @media only screen and (max-width: map-get($breakpoint-screen, md)) {
+      @content;
+    }
+  }
+
+  @if $point == 'sm' {
+    @media only screen and (max-width: map-get($breakpoint-screen, sm)) {
+      @content;
+    }
+  }
+
+  @if $point == 'xs' {
+    @media only screen and (max-width: map-get($breakpoint-screen, xs)) {
+      @content;
+    }
+  }
+}

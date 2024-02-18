@@ -1,0 +1,15 @@
+$path-font: '../fonts';
+
+$xl-size: theme('screens.xl.max');
+$lg-size: theme('screens.lg.max');
+$md-size: theme('screens.md.max');
+$sm-size: theme('screens.sm.max');
+$xs-size: theme('screens.xs.max');
+
+$breakpoint-screen: (
+  xl: $xl-size,
+  lg: $lg-size,
+  md: $md-size,
+  sm: $sm-size,
+  xs: $xs-size,
+);
